@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37193C"
+    tools:context=".register">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#023C57"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Bank Registration"
+        android:textColor="#C2B0E1"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="Enter your phone number below to register"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/phone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:hint="phone no."
+        android:inputType="phone"
+        android:textColor="#FFFCFC"
+        android:textColorHint="#FB9595"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:hint="otp"
+        android:textColor="#FFFCFC"
+        android:textColorHint="#FB9595"
+        android:textSize="20dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="10dp"
+        android:background="#11202C"
+        android:padding="10dp"
+        android:text="register"
+        android:textColor="#CF9B92"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#2B2941"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_location"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="Current Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e0fbfc"/>
+
+    <Button
+        android:id="@+id/button_location"
+        android:text="Your Location"
+        android:layout_width="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#e0fbfc"
+        android:layout_height="wrap_content"
+        android:layout_margin="36dp"/>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/b1"
+        android:text="Open Maps"
+        android:layout_width="100dp"
+        android:textColor="#e0fbfc"
+        android:layout_height="150dp"
+        android:background="@drawable/maplogo"
+        />
+
+</LinearLayout>

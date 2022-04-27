@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37193C"
+    tools:context=".profile">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#023C57"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Dashboard"
+        android:textColor="#C2B0E1"
+        android:textSize="35dp" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30px"
+            android:background="@android:color/transparent"
+            android:text="Account"
+            android:textColor="#CF9B92" />
+        <Button
+            android:id="@+id/a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="30px"
+            android:layout_marginLeft="30px"
+            android:text="Balance"
+
+            android:textColor="#CF9B92" />
+        <Button
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/transparent"
+            android:text="Withdrawal"
+            android:textColor="#CF9B92" />
+    </TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome user "
+        android:textColor="#C2B0E1"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="Your number has been registered!"
+        android:textColor="#C2B0E1"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:text="User"
+        android:textColor="#F55353"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:text="Logout"
+        android:textColor="#CF9B92" />
+
+</RelativeLayout>

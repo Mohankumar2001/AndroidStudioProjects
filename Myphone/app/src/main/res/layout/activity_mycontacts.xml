@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25083A"
+    android:descendantFocusability="blocksDescendants"
+    tools:context=".Mycontacts">
+
+
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:baselineAligned="false"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center_vertical"
+            android:focusable="false"
+            android:clickable="false"
+            android:focusableInTouchMode="false"
+            />
+
+
+</RelativeLayout>

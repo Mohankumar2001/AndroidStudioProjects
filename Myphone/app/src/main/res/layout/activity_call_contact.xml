@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25083A"
+    tools:context=".CallContact">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_below="@id/img"
+        android:text="Contact"
+        android:gravity="center"
+        android:textColor="#2196F3"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:id="@+id/cntname"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_below="@id/cntname"
+        android:text="Phone no"
+        android:gravity="center"
+        android:textColor="#D68DA6"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/phnno"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Call"
+        android:textColor="#2196F3"
+        android:layout_below="@id/phnno"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_margin="50dp"
+        android:id="@+id/call1"
+        />
+
+</RelativeLayout>
